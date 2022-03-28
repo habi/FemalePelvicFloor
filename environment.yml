@@ -1,12 +1,20 @@
 name: dea
 channels:
+  - simpleitk
+  - anaconda
   - conda-forge
   - defaults
 dependencies:
+  - jupyterlab
   - pandas
   - dask
+  - dask-image  
   - imageio
   - numpy
+  - scipy  
+  - scikit-image 
   - matplotlib
   - seaborn
   - tqdm
+  - openpyxl  
+  - simpleitk
