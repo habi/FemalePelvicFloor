@@ -1,0 +1,12 @@
+name: dea
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pandas
+  - dask
+  - imageio
+  - numpy
+  - matplotlib
+  - seaborn
+  - tqdm
