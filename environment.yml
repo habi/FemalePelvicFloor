@@ -6,6 +6,8 @@ channels:
   - defaults
 dependencies:
   - jupyterlab
+  - nodejs
+  - ipywidgets
   - pandas
   - dask
   - dask-image  
