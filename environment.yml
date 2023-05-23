@@ -5,10 +5,12 @@ channels:
 dependencies:
   - python=3.10
   - jupyterlab
+  - nodejs
   - ipywidgets
   - pandas
   - dask
   - dask-image  
+  - dask-labextension
   - scikit-image 
   - matplotlib
   - matplotlib-scalebar
