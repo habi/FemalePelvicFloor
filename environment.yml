@@ -11,6 +11,8 @@ dependencies:
   - dask
   - dask-image  
   - dask-labextension
+  - zarr
+  - numcodecs
   - scikit-image 
   - matplotlib
   - matplotlib-scalebar
