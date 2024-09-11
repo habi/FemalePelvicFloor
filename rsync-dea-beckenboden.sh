@@ -11,5 +11,5 @@ echo "resstore dea --> FastSSD"
 rsync --verbose --recursive --update --times --omit-dir-times --exclude="*_rectmp.log" --exclude="*.raw" --exclude="*.?if" --exclude="*.ims" ~/research_storage_djonov/Aaldijk/PelvicFloor/ /media/habi/Fast_SSD/Aaldijk/PelvicFloor/
 echo "Update  resstore dea from FastSSD"
 rsync --verbose --recursive --update --times --omit-dir-times /media/habi/Fast_SSD/Aaldijk/PelvicFloor/ ~/research_storage_djonov/Aaldijk/PelvicFloor/
-echo "Log files and stuff on 2214 -> Repository subfolder"
-rsync --verbose --recursive --update --times --omit-dir-times --include="*/" --include="*.?og" --include="*.c?v" --include="*.?oi" --include="*.txt" --include="*.md" --include="*.?nc" --exclude="*_rectmp.log" --exclude="*" ~/2214/Beckenboden\ Dea/ /home/habi/P/Documents/Dea-Beckenboden/logfiles/
+echo "Logs from archive -> Repository subfolder"
+rsync --verbose --recursive --update --times --omit-dir-times --include="*/" --include="*.?og" --include="*.c?v" --include="*.?oi" --include="*.txt" --include="*.md" --include="*.?nc" --exclude="*_rectmp.log" --exclude="*" ~/research_storage_uct/Archiv_Tape/Aaldijk\ Beckenboden/ ~/P/Documents/Dea-Beckenboden/logfiles/
