@@ -1,9 +1,9 @@
-# 2214 -> resstore dea
-echo "2214 -> resstore dea"
-rsync --verbose --recursive --update --times --omit-dir-times --exclude="*_rectmp.log" --exclude="*.?if" ~/2214/Beckenboden\ Dea/ ~/research_storage_djonov/Aaldijk/PelvicFloor/
 # 2214 -> Archiv
 echo "2214 -> archiv"
 rsync --verbose --recursive --times --update --omit-dir-times --prune-empty-dirs --exclude="*rec*.png" --exclude="*.dcm" --exclude="*.zarr" --exclude="*_rectmp.log" --exclude="SubScan?" --exclude="Thumbs.db" ~/2214/Beckenboden\ Dea/ ~/research_storage_uct/Archiv_Tape/Aaldijk\ Beckenboden/
+# 2214 -> resstore dea
+echo "2214 -> resstore dea"
+rsync --verbose --recursive --update --times --omit-dir-times --exclude="*_rectmp.log" --exclude="*.?if" ~/2214/Beckenboden\ Dea/ ~/research_storage_djonov/Aaldijk/PelvicFloor/
 echo "Generate copy on FastSSD"
 echo "2214 --> FastSSD"
 rsync --verbose --recursive --update --times --omit-dir-times --exclude="*_rectmp.log" --exclude="*.?if" ~/2214/Beckenboden\ Dea/ /media/habi/Fast_SSD/Aaldijk/PelvicFloor/
