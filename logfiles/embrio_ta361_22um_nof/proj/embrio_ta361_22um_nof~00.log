@@ -53,5 +53,6 @@ Type Of Motion=STEP AND SHOOT
 Study Date and Time=Sep 06, 2018  17:39:56
 Scan duration=00:40:20
 Maximum vertical TS=5.0
+Maximum Horizontal TS=0.0
 [Reconstruction]
 Pseudo-parallel projection calculated=1

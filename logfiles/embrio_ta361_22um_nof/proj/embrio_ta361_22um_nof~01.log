@@ -55,5 +55,7 @@ Scan duration=00:39:04
 Extra Image Shift In X suggested (micron)=10.193775
 Extra Image Shift In Y suggested (micron)=10.529770
 Extra CS Rotation suggested (deg)=0.000000
+Maximum Vertical TS=5.0
+Maximum Horizontal TS=0.0
 [Reconstruction]
 Pseudo-parallel projection calculated=1
